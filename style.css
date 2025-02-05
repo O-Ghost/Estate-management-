@@ -1,0 +1,96 @@
+body{
+    
+    color:black;
+    font-family:helvetica neue,helvetica arial, helvetica sans-serif;
+    font-size: large;
+    margin:0;
+    padding:0;
+    
+}
+header {
+    background:black;
+    background-image: url(pngtree-houses-logo-png-image_6560047.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px; ;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.features{
+    background:black;
+    color:grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+header .logo a{
+ background-image:url(global-green-housing-logo-symbol-global-green-housing-logo-symbol-vector-graphic-design-110201636.jpg) ;
+ background-size: cover;
+ background-repeat: no-repeat;
+display: inline-block;
+background-position: center;
+position:relative;
+height: 50px;
+text-indent:-999999999px;
+width: 50px;
+top:-10px;
+border-radius: 100%;
+}
+.hero{
+    background-image: url(housing-header.jpg);
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    display: block;
+    padding-bottom:135%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.listings{
+    background-image: url(new-house.jpg);
+    padding-top: 20px;
+    padding-bottom: 100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255,255,255,0.9);
+}
+.contact{
+    background-image: url(Contact.jpg) ;
+    padding-top: 20px;
+    padding-bottom: 73%;
+    display: block;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    background:grey;
+    padding: 20px;
+    background-size: cover;
+}
+.features figure {
+    margin:auto;
+    width: 100px;
+    text-align: center;
+}
+.features figure img{
+    width:auto;
+    border-radius: 100%;
+    box-shadow: 20px;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+li{
+    display:inline-block;
+    margin-right: 20px;
+}

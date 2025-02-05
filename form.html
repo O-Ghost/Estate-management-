@@ -1,0 +1,108 @@
+<html>    
+        <head>
+              
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <h2>House Search Preferences</h2> 
+        </head>
+        
+        <body>
+                <style>
+                form{
+                        background-image: url(housing-header.jpg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        padding-bottom:20%;
+                        
+                        backdrop-filter: ;
+                    }
+                </style>
+                <form>
+                        <fieldset>
+                                <legend>Location</legend>
+                        <label for="con">City Or Neighorhood</label><br>
+                        <input type="=text" id="con" Name="City Or Neighorhood" placeholder="Enter City or Neighorhood"><br>
+                        <label for="sop">State Or Province</label><br>
+                        <input type="text" Name="State Or Province" id="sop" placeholder="Enter State or Province" ><br>
+                        <label for="zop">Zip Or Postal Code</label><br>
+                        <input type="text" Name="Zip Or Postal Code" id="zop" placeholder="Enter Zip Or Postal Code" ><br>
+                </fieldset>
+                <fieldset>
+                        <legend>Property Type</legend>
+                      <label for="ht">House Type</label><br>  
+                      <select>
+                        <option></option>
+                        <option>Detached</option>
+                        <option>Semi-Detached</option>
+                        <option>Townhouse</option>
+                        <option>Apartment</option>
+                        <option>Bungalow</option>
+                        <option>Duplex</option>
+                        <option>Mansion</option>
+                        <option>Condominium</option>
+                      </select><br>
+                      <input type="text" id="ht" Name="House Type" placeholder="other(please specify)" ><br>
+                      <label>Number of Bedrooms</label><br>
+                      <select>
+                        <option></option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5 or more</option>
+                      </select><br>
+                      <label>Bathroom settings</label><br>
+                      <select>
+                        <option></option>
+                      <option>Master,en-suite and Guest Bathroom separately</option>
+                      <option>Master,full and half Bathroom separately</option>
+                      <option>Master,Jack and Jill Bathroom separately</option>
+                      <option>full and guest Bathroom separately</option>
+                      <option>full and half Bathroom separately</option>
+                </select><br>
+        </fieldset>
+        <fieldset>
+                <legend>Features And Amenities</legend>
+                <label for="features">Parking</label><br>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="Features And Amenities" value="yes" >
+                <label for="no">No</label>
+                <input type="radio" id="no" name="Features And Amenities" value="no" ><br>
+                <label for="features">Yard</label><br>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="Features And Amenities" value="yes" ><br>
+                <label for="no">No</label>
+                <input type="radio" id="no" name="Features And Amenities" value="no" ><br>
+                <label for="features">Pool</label><br>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="Features And Amenities" value="yes" ><br>
+                <label for="no">No</label>
+                <input type="radio" id="no" name="Features And Amenities" value="no" ><br>
+                <input type="text" id="FaA" Name="Features And Amenities"  placeholder="other Amenities(please specify)"><br>
+        </fieldset>
+                <fieldset>
+                <legend>Budget And Preference</legend>  
+                <label for="price">Price Range</label><br>
+                <select>
+                        <option></option>
+                      <option>$25,000-$50,000</option>
+                      <option>$60,000-$100,000</option>
+                      <option>$120,000-$260,000</option>
+                      <option>$280,000-$350,000</option>
+                      <option>$400,000-$600,000</option>
+                </select><br>
+                <label for="BoR">Buy or Rent</label><br>
+                <label>Buy</label><br>
+                <input type="radio" id="BoR" name="Buy or Rent" value="buy"><br>
+                <label>Rent</label><br>
+                <input type="radio" id="BoR" name="Buy or Rent" value="rent"><br>
+                <label for="Mid">Move-in Date</label><br>
+                <input type="date" id="Mid" name="Move-in Date"><br>
+                <label>Additional Comments</label><br>
+                <textarea id="comment" name="Additional Comments" placeholder="is there anything else you'd like to share about your house Preferences" cols="40" rows="5"></textarea><br>
+        </fieldset>
+                <button>Submit</button>
+                </form>
+                
+        </body>
+</html>
